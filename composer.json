@@ -1,0 +1,22 @@
+{
+  "name": "itsmelepassos/phpoo-timezone",
+  "description": "Atribua um fuso horário local sem a necessidade de alterar o arquivo php.ini",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Leandro Passos",
+      "email": "itsmelepassos@gmail.com",
+      "role": "Developer Analyst"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "ItsMeLePassos\\Palindrome\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.1"
+  }
+}
