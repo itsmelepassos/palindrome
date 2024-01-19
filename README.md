@@ -1,8 +1,8 @@
 # palindrome by Leandro Passos
 
 [![Maintainer](http://img.shields.io/badge/maintainer-@itsmelepassos-blue.svg?style=flat-square)](https://twitter.com/itsmelepassos)
-[![Source Code](http://img.shields.io/badge/source-itsmelepassos/phpoo--timezone-blue.svg?style=flat-square)](https://github.com/itsmelepassos/palindrome)
-[![PHP from Packagist](https://img.shields.io/packagist/php-v/itsmelepassos/phpo--timezone.svg?style=flat-square)](https://packagist.org/packages/itsmelepassos/palindrome)
+[![Source Code](http://img.shields.io/badge/source-itsmelepassos/palindrome-blue.svg?style=flat-square)](https://github.com/itsmelepassos/palindrome)
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/itsmelepassos/palindrome.svg?style=flat-square)](https://packagist.org/packages/itsmelepassos/palindrome)
 [![Latest Version](https://img.shields.io/github/release/itsmelepassos/palindrome.svg?style=flat-square)](https://github.com/itsmelepassos/palindrome/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 [![Build](https://img.shields.io/scrutinizer/build/g/itsmelepassos/palindrome.svg?style=flat-square)](https://scrutinizer-ci.com/g/itsmelepassos/palindrome)
@@ -63,8 +63,8 @@ ou pode também consultar o código abaixo para servir como exemplo.
 <?php
 
 /**
- * Calls the composer autoload. Then, calls the respective class for the timezone.
- * Chama o autoload do composer. Então, chame a classe respectiva para o fuso-horário.
+ * Calls the composer autoload. Then, calls the respective class for the palindrome.
+ * Chama o autoload do composer. Então, chame a classe respectiva para o palindrome.
  */
 require __DIR__ . "/../vendor/autoload.php";
 
@@ -77,8 +77,8 @@ use ItsMeLePassos\Palindrome\Palindrome;
 $palindrome = new Palindrome();
 
 /**
- * Exemplos de valores tipo número ou texto que podem ser avaliados pelo método setTimezone() 
- * Examples of number or text values that can be evaluated by the setTimezone() method
+ * Exemplos de valores tipo número ou texto que podem ser avaliados pelo método setPalindrome() 
+ * Examples of number or text values that can be evaluated by the setPalindrome() method
  */
 $palindrome01 = $palindrome->setPalindrome('105501');
 $palindrome02 = $palindrome->setPalindrome('160678');

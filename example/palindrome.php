@@ -1,8 +1,8 @@
 <?php
 
 /**
- * Calls the composer autoload. Then, calls the respective class for the timezone.
- * Chama o autoload do composer. Então, chame a classe respectiva para o fuso-horário.
+ * Calls the composer autoload. Then, calls the respective class for the palindrome.
+ * Chama o autoload do composer. Então, chame a classe respectiva para o palindrome.
  */
 require __DIR__ . "/../vendor/autoload.php";
 

@@ -1,6 +1,6 @@
 {
-  "name": "itsmelepassos/phpoo-timezone",
-  "description": "Atribua um fuso horário local sem a necessidade de alterar o arquivo php.ini",
+  "name": "itsmelepassos/palindrome",
+  "description": "Verifica se uma expressão ou um número é ou não um palíndromo",
   "type": "library",
   "license": "MIT",
   "authors": [
